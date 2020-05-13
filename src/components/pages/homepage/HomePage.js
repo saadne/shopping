@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomePage.styles.scss";
-import Directory from "../directory/Directory";
-
+import Directory from "../../directory/Directory";
 function HomePage() {
   return (
     <div className="home-page">

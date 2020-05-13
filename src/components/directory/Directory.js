@@ -8,7 +8,7 @@ export class Directory extends Component {
         title: "hats",
         image: "https://i.ibb.co/cvpntL1/hats.png",
         id: 1,
-        linkUrl: "hats",
+        linkUrl: "shop",
       },
       {
         title: "jackets",
