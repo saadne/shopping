@@ -8,28 +8,33 @@ export class Directory extends Component {
         title: "hats",
         image: "https://i.ibb.co/cvpntL1/hats.png",
         id: 1,
+        linkUrl: "hats",
       },
       {
         title: "jackets",
         image: "https://i.ibb.co/px2tCc3/jackets.png",
         id: 2,
+        linkUrl: "",
       },
       {
         title: "sneakers",
         image: "https://i.ibb.co/0jqHpnp/sneakers.png",
         id: 3,
+        linkUrl: "",
       },
       {
         title: "womens",
         image: "https://i.ibb.co/GCCdy8t/womens.png",
         id: 4,
         size: "large",
+        linkUrl: "",
       },
       {
         title: "mens",
         image: "https://i.ibb.co/R70vBrQ/menss.png",
         id: 5,
         size: "large",
+        linkUrl: "",
       },
     ],
   };
@@ -42,6 +47,7 @@ export class Directory extends Component {
             title={section.title}
             image={section.image}
             size={section.size}
+            linkUrl={section.linkUrl}
           />
         ))}
       </div>
